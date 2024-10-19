@@ -1,4 +1,4 @@
 This is the solana-starter file, 
 
-ts directory has all Typescript files.
-rs directory has all Rust files.
+ts directory for Typescript files.
+rs directory for Rust files.
