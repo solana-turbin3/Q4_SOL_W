@@ -1,0 +1,23 @@
+These two scripts clean the raw json data retrieved from the different scraping / API scripts.
+
+JSON clean outputs it into the following format:
+  market: string
+  asset_id: string
+  hash: string
+  timestamp: string
+  bids Ordersummary[]
+  asks Ordersummary[]
+
+JSON clean2 outputs it into the following format:
+  Event ID
+  Event Time
+  Sport / Market type
+  Side A
+    1. Name
+    2. Odds
+  Side B
+    1. Name
+    2. Odds
+  (Side C)
+    1. (Name)
+    2. (Odds)
