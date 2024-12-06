@@ -1,4 +1,6 @@
 These two scripts clean the raw json data retrieved from the different scraping / API scripts.
+----------------------------------------------------------------------------------------------
+
 I have included old JSON data in all_markets.json, which can be used to test the two scripts. 
 Please keep in mind that these markets are now closed, and therefore don't have a bid and ask
 
