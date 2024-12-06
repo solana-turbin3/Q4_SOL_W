@@ -1,8 +1,5 @@
-Turbin3 Q4 Builder's cohort 2024
---------------------------------
-
 Capstone Project: wScout
-
+--------------------------------
 
 For a brief overview, please refer to "Pitchdeck wScout.pdf"
 
