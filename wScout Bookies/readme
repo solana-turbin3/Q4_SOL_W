@@ -1,1 +1,14 @@
+Scrapes data from https://api.the-odds-api.com
 
+Parameters
+sport;   The sport key. upcoming returns any live games as well as the next 8 upcoming games across all sports
+regions;   Determines the bookmakers to be returned. Valid regions are us, us2 (United States), uk (United Kingdom), au (Australia) and eu (Europe). Multiple regions can be specified if comma delimited. See the list of bookmakers by region.
+markets;   Determines which odds market is returned. Defaults to h2h (head to head / moneyline). Valid markets are h2h (moneyline), spreads (points handicaps), totals (over/under) and outrights (futures). Multiple markets can be specified if comma delimited. 
+
+Lay odds are automatically included with h2h results for relevant betting exchanges (Betfair, Matchbook etc). These have a h2h_lay market key
+For sports with outright markets, the market will default to outrights if not specified. Lay odds for outrights (outrights_lay) will automatically be available for relevant exchanges.
+
+dateFormat; Determines the format of timestamps in the response. Valid values are unix and iso (ISO 8601).
+oddsFormat; Determines the format of odds in the response. Valid values are decimal and american. 
+eventIds; Filters the response to only return games with the specified ids.
+bookmakers; list of bookmakers to be returned. 
