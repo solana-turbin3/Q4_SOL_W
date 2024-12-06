@@ -1,4 +1,6 @@
+----------------------------------------------------------------------------------------------------------
 These are all the wScout scripts that interact with Polymarket, using their CLOB API and Gamma Markets API
+----------------------------------------------------------------------------------------------------------
 
 The Events script retrieves the most recent 100 active AND open markets from https://gamma-api.polymarket.com/markets
 The CLOBmarkets script retrieves all active and open markets, through a connection with the Polymarket Central Limit Orderbook. Requires:
@@ -6,3 +8,21 @@ The CLOBmarkets script retrieves all active and open markets, through a connecti
   - Private key / Wallet
 
 Both scripts output raw JSON data, to be processed.
+
+----------------------------------------------------------------
+These are the current features for the marketmaking script(WIP):
+----------------------------------------------------------------
+
+Placing Orders: Submit buy/sell orders with price and size; returns a unique order_id.
+Canceling Orders: Remove active orders from the LOB using their order_id.
+Fetching Open Orders: Retrieve a list of currently active orders for the user.
+Checking Market Validity: Verify if a market exists using its contract address.
+Fetching Market Price: Get the current midpoint price (average of best bid and ask).
+
+Key Methods:
+submit_orders: Place multiple orders and track them locally.
+remove_orders: Cancel specific orders by their IDs.
+fetch_open_orders: Retrieve details of all active orders.
+fetch_price: Get the current price spread of the market.
+validate_market: Check if the specified market exists.
+_submit_order: Low-level method for placing orders via API.
