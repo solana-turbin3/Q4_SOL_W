@@ -1,4 +1,6 @@
 These two scripts clean the raw json data retrieved from the different scraping / API scripts.
+I have included old JSON data in all_markets.json, which can be used to test the two scripts. 
+Please keep in mind that these markets are now closed, and therefore don't have a bid and ask
 
 JSON clean outputs it into the following format:
   market: string
@@ -11,7 +13,7 @@ JSON clean outputs it into the following format:
 JSON clean2 outputs it into the following format:
   Event ID
   Event Time
-  Sport / Market type
+  Market type
   Side A
     1. Name
     2. Odds
@@ -21,3 +23,6 @@ JSON clean2 outputs it into the following format:
   (Side C)
     1. (Name)
     2. (Odds)
+
+
+**Side C is applicable to events such as Soccer games, where there is a third outcome, DRAW**
