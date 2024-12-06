@@ -1,5 +1,6 @@
 Capstone Project: wScout
 --------------------------------
+![wscout logo](https://github.com/user-attachments/assets/779f1525-bd82-4370-ac3a-ccf6f6b6859a)
 
 For a brief overview, please refer to "Pitchdeck wScout.pdf"
 
