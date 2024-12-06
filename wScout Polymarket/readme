@@ -1,1 +1,8 @@
 These are all the wScout scripts that interact with Polymarket, using their CLOB API and Gamma Markets API
+
+The Events script retrieves the most recent 100 active AND open markets from https://gamma-api.polymarket.com/markets
+The CLOBmarkets script retrieves all active and open markets, through a connection with the Polymarket Central Limit Orderbook. Requires:
+  - RPC connection, https://polygon-rpc.com
+  - Private key / Wallet
+
+Both scripts output raw JSON data, to be processed.
