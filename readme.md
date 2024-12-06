@@ -14,7 +14,7 @@ Vault Devnet program ID: 82VcvNiAnzmfcVzT8sp8v1aih1KTpCQRssfzNVXQ56R8
 --------------------------------
 
 Odds Aggregator
-- wScout Polymarket; Retrieves active Markets from Polymarket
+- wScout Polymarket; Retrieves active Markets from Polymarket + Marketmaker(WIP)
 - wScout Bookies; Scrapes data from Bookies
 - wScout JSON Clean; Cleans raw JSON data for analysis
 
