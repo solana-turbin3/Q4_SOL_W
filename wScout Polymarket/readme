@@ -25,4 +25,4 @@ remove_orders: Cancel specific orders by their IDs.
 fetch_open_orders: Retrieve details of all active orders.
 fetch_price: Get the current price spread of the market.
 validate_market: Check if the specified market exists.
-_submit_order: Low-level method for placing orders via API.
+_submit_order: Method for placing orders via API.
